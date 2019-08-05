@@ -13,7 +13,7 @@ public class GuessTheNumber {
             for (int i = 0; i < guesses.length; i++)
             {
                 System.out.print("Trying: " + guesses[i]);
-                try 
+                try
                 {
                     if (us.guessX(guesses[i]))
                     {
